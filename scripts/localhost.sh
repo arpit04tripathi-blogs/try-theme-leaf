@@ -18,7 +18,7 @@ case $1 in
   *)
     echo docker compose up
     docker compose -f ./docker/docker-compose.yml up server -d
-    cmd=$( open -a "Google Chrome" http://localhost:9999/jekyll-setup/ )
+    cmd=$( open -a "Google Chrome" http://localhost:9999/try-theme-leaf/ )
     echo opening chrome $cmd
     ;;
 esac
